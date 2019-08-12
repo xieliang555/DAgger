@@ -1,0 +1,8 @@
+{"batch_size"	:	32,
+"env_name"	:	"Humanoid-v2",
+"exp_name"	:	"BC_Humanoid-v2",
+"layers"	:	2,
+"learning_rate"	:	0.001,
+"n_epoch"	:	100,
+"n_rollouts"	:	20,
+"size"	:	64}
