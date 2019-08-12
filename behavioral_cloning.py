@@ -16,12 +16,12 @@ def build_mlp(input_placeholder, output_size, layers, size, activation=tf.nn.rel
 
 		arguments:
 			input_placeholder: placeholder variable for the state (batch_size, input_size)
-            output_size: size of the output layer
-            scope: variable scope of the network
-            layers: number of hidden layers
-            size: dimension of the hidden layer
-            activation: activation of the hidden layers
-            output_activation: activation of the ouput layers
+			output_size: size of the output layer
+        	scope: variable scope of the network
+        	layers: number of hidden layers
+        	size: dimension of the hidden layer
+        	activation: activation of the hidden layers
+        	output_activation: activation of the ouput layers
 
 		return:
 			output placeholder of the neuron network
